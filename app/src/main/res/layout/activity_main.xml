@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/views_gap"
+    android:paddingRight="@dimen/views_gap"
+    android:paddingTop="@dimen/views_gap"
+    android:paddingBottom="@dimen/views_gap"
+    android:orientation="vertical"
+    tools:context="com.example.android.justjava.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity_textveiw"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/views_gap"
+        android:layout_marginTop="@dimen/views_gap"
+        android:text="@string/quantity_count_textview"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/order_button"
+        android:onClick="submitOrder"/>
+
+</android.widget.LinearLayout>
