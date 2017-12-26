@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="views_gap">16dp</dimen>
+    <dimen name="views_half_gap">8dp</dimen>
     <dimen name="text_size">16sp</dimen>
     <dimen name="minimum_button_size">48dp</dimen>
 </resources>

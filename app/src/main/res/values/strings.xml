@@ -6,4 +6,5 @@
     <string name="price_textview">Price</string>
     <string name="increment_button">+</string>
     <string name="decrement_button">-</string>
+    <string name="price_value_textview">$10.00</string>
 </resources>

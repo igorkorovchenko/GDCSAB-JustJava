@@ -19,27 +19,36 @@
         android:textAllCaps="true"
         android:textSize="@dimen/text_size" />
 
-    <Button
-        android:layout_width="@dimen/minimum_button_size"
-        android:layout_height="@dimen/minimum_button_size"
-        android:textSize="@dimen/text_size"
-        android:text="@string/increment_button"
-        android:onClick="increment"/>
-
-    <TextView
-        android:id="@+id/quantity_text_view"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/quantity_count_textview"
-        android:textColor="@color/text_color"
-        android:textSize="@dimen/text_size" />
+        android:orientation="horizontal">
 
-    <Button
-        android:layout_width="@dimen/minimum_button_size"
-        android:layout_height="@dimen/minimum_button_size"
-        android:textSize="@dimen/text_size"
-        android:text="@string/decrement_button"
-        android:onClick="decrement"/>
+        <Button
+            android:layout_width="@dimen/minimum_button_size"
+            android:layout_height="@dimen/minimum_button_size"
+            android:textSize="@dimen/text_size"
+            android:text="@string/decrement_button"
+            android:onClick="decrement"/>
+
+        <TextView
+            android:id="@+id/quantity_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/views_half_gap"
+            android:layout_marginRight="@dimen/views_half_gap"
+            android:text="@string/quantity_count_textview"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:layout_width="@dimen/minimum_button_size"
+            android:layout_height="@dimen/minimum_button_size"
+            android:textSize="@dimen/text_size"
+            android:text="@string/increment_button"
+            android:onClick="increment"/>
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/views_gap"
         android:layout_marginTop="@dimen/views_gap"
-        android:text="@string/quantity_count_textview"
+        android:text="@string/price_value_textview"
         android:textColor="@color/text_color"
         android:textSize="@dimen/text_size" />
 
